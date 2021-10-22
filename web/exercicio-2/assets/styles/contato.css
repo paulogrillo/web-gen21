@@ -21,7 +21,7 @@ header {
     font-size: 60px;
     color: aliceblue;
 
-    width: 600px;
+    width: 60px;
     margin: 0px;
 }
 
@@ -38,6 +38,6 @@ header {
     margin: 0px;
 }
 
-.labels {
-    
+.form {
+    width: 200px;
 }

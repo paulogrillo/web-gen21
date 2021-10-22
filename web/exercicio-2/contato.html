@@ -41,33 +41,80 @@
     <!--Formulário-->
     <div style="display: flex; justify-content: center;  width: 100%;">
 
-        <form action="#" style="margin-top: 50px; padding: 10px; border-radius: 5px;">
-      
-          <label style="font-size: 26px;" for="fname">Primeiro nome</label>
-          <input style="margin-bottom: 10px; font-size: 22px;" type="text" id="fname" name="firstname" placeholder="Primeiro nome.."><br>
-        
-          <label style="font-size: 26px; margin-top: 10px; " for="lname">Último nome</label>
-          <input style="font-size: 22px; margin-left: 20px;" type="text" id="lname" name="lastname" placeholder="Último nome..">
+        <form 
+        action="#" 
+        style="margin-top: 50px; padding: 10px; border-radius: 5px;">
+            
+        <!--Fist Name-->
+            <label 
+            style="padding-bottom: 20px; font-size: 22px;"     for="fname">Primeiro nome
+            </label>
+            <br>
+            <input 
+                style="margin-bottom: 10px; font-size: 18px;" type="text" 
+                id="fname" 
+                name="firstname" 
+                placeholder="Insira o primeiro nome" 
+                onkeyup='fnameValidation()'>
+            <div id="textFname"></div>
+            <br>
+        <!--Ultimo nome-->  
+            <label 
+                style="font-size: 22px; margin-top: 10px; " for="lname">Último nome
+            </label>
+            <br>
+            <input 
+                style="margin-bottom: 10px; font-size: 18px;" 
+                type="text" 
+                id="lname" 
+                name="lastname" 
+                placeholder="Insira o último nome" 
+                onkeyup=" lnameValidation()">
+            <div id="textLname"></div>
             <br><br>
-          <label style="font-size: 26px;" for="country">Cidade</label>
-          <select style="font-size: 26px; margin-left: 85px;" id="country" name="country">
-            <option style="font-size: 22px;" value="brasil">Brasil</option>
-            <option style="font-size: 22px;" value="australia">Australia</option>
-            <option style="font-size: 22px;" value="canada">Canada</option>
-            <option style="font-size: 22px;" value="usa">USA</option>
-          </select>
 
-          <br><br>
-      
-          <label style="font-size: 26px;" for="subject">Assunto</label>
-          <br>
-          <textarea style="font-size: 26px; width: 600px; height: 200px;" id="subject" name="subject" placeholder="Escreva algum.." style="height:200px"></textarea>
-          
-          <input style="display: block; font-size: 26px;" type="submit" value="Enviar">
-      
-        </form>
+
+        <!--Pais-->
+            <label style="font-size: 26px;" for="country">Pais<label>
+            <select 
+                style="font-size: 26px; margin-left: 85px;" 
+                id="country" 
+                name="country">
+                <option style="font-size: 22px;" value="brasil">Brasil</option>
+                <option style="font-size: 22px;" value="australia">Australia</option>
+                <option style="font-size: 22px;" value="canada">Canada</option>
+                <option style="font-size: 22px;" value="usa">USA</option>
+            </select>
+
+            <br><br>
+        <!--Assunto-->
+            <label 
+            style="font-size: 26px;" 
+            for="description">Assunto
+            </label>
+            <br>
+            <textarea 
+            placeholder="Escreva sua mensagem.."
+            style="font-size: 20px; width: 600px; height: 200px;" id="subject" 
+            name="subject" 
+             
+            >
+            </textarea>
+        
+
+            <input 
+                style="display: block; font-size: 26px;" 
+                type="submit" 
+                value="Enviar"
+                id="description"
+                onkeyup="descriptionValidation()">
+                <div id="#texDescription"></div>
+            </form>
       </div>
 
-    
+      <footer>
+          <div style="height: 40px; width: 100%; display: flex; justify-content: center; padding: 0; margin-top: 20px;"><h2>Hello</h2></div>
+      </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
