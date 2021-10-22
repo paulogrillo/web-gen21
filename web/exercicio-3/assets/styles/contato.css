@@ -1,0 +1,43 @@
+header {
+    width: auto;
+    height: 700px;
+    background-image: url(https://www.soldevelo.com/blog/wp-content/uploads/What-makes-a-great-programmer-banner-1536x1024-1.jpeg);
+    background-attachment: fixed;
+    
+}
+.header-modal {
+    position: absolute;
+    top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height:  200px;
+}
+.title-header {
+    text-align: start;
+    position: relative; 
+    top: 200px;
+    left: 40px;
+
+    font-size: 60px;
+    color: aliceblue;
+
+    width: 60px;
+    margin: 0px;
+}
+
+.p-header {
+    text-align: start;
+    position: relative; 
+    top: 300px;
+    left: 40px;
+
+    font-size: 30px;
+    color: aliceblue;
+
+    width: 600px;
+    margin: 0px;
+}
+
+.form {
+    width: 200px;
+}

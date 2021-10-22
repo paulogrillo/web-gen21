@@ -1,0 +1,50 @@
+header {
+    width: auto;
+    height: 1200px;
+    background-image: url(https://securityledger.com/wp-content/uploads/2020/05/open_source.jpg);
+    background-attachment: fixed;
+}
+.header-modal {
+    position: absolute;
+    top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height:  200px;
+}
+.title-header {
+    text-align: start;
+    position: relative; 
+    top: 200px;
+    left: 40px;
+
+    font-size: 60px;
+    color: aliceblue;
+
+    width: 600px;
+    margin: 0px;
+}
+.p-header {
+    text-align: start;
+    position: relative; 
+    top: 300px;
+    left: 40px;
+
+    font-size: 30px;
+    color: aliceblue;
+
+    width: 600px;
+    margin: 0px;
+}
+.p-main {
+    font-size: 20px;
+    padding: 10px;
+}
+.img-main {
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
