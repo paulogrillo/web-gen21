@@ -1,0 +1,65 @@
+.bg-principal{
+    background-color: black !important;
+}
+
+.navbar-brand{
+    color: rgb(202, 18, 18) !important;
+    font-size: 2.8rem !important;
+}.navbar-brand:hover{
+    color: rgba(202, 18, 18, 0.76) !important;
+    transition: 0.6s;
+    font-size: 2.76rem !important;
+    transition: 500ms;
+}
+
+.btn-outline-success {
+    border-color: aliceblue;
+    color: blue !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.8rem;
+    margin: 1rem;
+}.nav-link:hover{
+    color: rgb(202, 18, 18) !important;
+    transition: 0.5s;
+}
+.frame:hover{
+    border-radius: 0 !important;
+    transition: 500ms;
+    opacity: 95%;
+}
+.frame{
+    opacity: 80%;
+    border-radius: 20% !important;
+    transition: 500ms;
+}
+.img-main {
+    margin: 0;
+    padding: 0 !important;
+    border-radius: 10% !important;
+    transition: 500ms;
+
+}
+.img-main:hover {
+    margin: 0;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    opacity: 80%;
+    transition: 500ms;
+   
+ 
+}
+.background {
+    width: 100%;
+    height: auto;
+
+
+           object-fit: none; /* Do not scale the image */
+
+           width: 100%;
+           max-height: 100%px;
+           margin-bottom: 2rem;
+         
+}

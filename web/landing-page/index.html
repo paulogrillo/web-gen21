@@ -1,28 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
+    <!-- CSS - Person -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- CSS - Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Round Six</title>
 </head>
 <body>
 
     <!--Menu - 5 titulos-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-principal">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand p-4" href="#">Round Six</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Imagens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Formulário</a>
+              </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+    </nav>
 
     <!--1 vídeo -->
-
+    <div style="display: flex; justify-content: center; margin-top: 20px; padding: 20px; ">
+      <iframe class="frame" width="80%" height="400" src="https://www.youtube.com/embed/emZS6kUzXg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+    </div>
+   
     <!--4 imagens-->
-
+    <div class="container" style="padding-bottom: 50px; padding-top: 50px;">
+      <div class="row">
+        <img src="assets/img/1.jpg" class=" col img-main" alt="...">
+        <img src="assets/img/2.png" class=" col-12 img-main" alt="...">
+        <img src="assets/img/3.jpg" class=" col img-main" alt="...">
+      </div>
+    </div>
     <!--Texto Lorem-->   
 
     <!--Cards--> 
-    
+    <div class="card-columns" style="padding: 5%;">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer class="blockquote-footer">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="..." alt="Card image">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
     <!--Footer com links para redes sociais-->
 
     <!--formulário com no minimo 3 campos-->
 
     <!--Valide os campos desse formulário de forma sincrona ou assincrona.-->
 
+
+    <!--Scripts JS - Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
