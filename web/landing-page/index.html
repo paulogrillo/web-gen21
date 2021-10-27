@@ -12,7 +12,6 @@
 
     <!-- CSS - Person -->
     <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/contato.css">
 
     <!-- CSS - Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -126,19 +125,22 @@
 
     
     <!--Formulário-->
-    <div style="display: flex; justify-content: center;  width: 100%;">
+    <div class="div-formulario " id="formulario">
 
       <form 
-      action="#" 
-      style="margin-top: 50px; padding: 10px; border-radius: 5px;">
+      class="form"
+      action="#">
           
       <!--Fist Name-->
           <label 
-          style="padding-bottom: 20px; font-size: 22px;"     for="fname">Primeiro nome
+          class="label-name"
+          for="fname">Nome
           </label>
           <br>
           <input 
-              style="margin-bottom: 10px; font-size: 18px;" type="text" 
+              class="input-name"
+              style=""
+              type="text" 
               id="fname" 
               name="firstname" 
               placeholder="Insira o primeiro nome" 
@@ -147,24 +149,28 @@
           <br>
       <!--Ultimo nome-->  
           <label 
-              style="font-size: 22px; margin-top: 10px; " for="lname">Último nome
+              class="label-name"
+              for="lname">Sobrenome
           </label>
           <br>
           <input 
-              style="margin-bottom: 10px; font-size: 18px;" 
+              class="input-name" 
               type="text" 
               id="lname" 
               name="lastname" 
-              placeholder="Insira o último nome" 
+              placeholder="Insira o seu sobrenome" 
               onkeyup=" lnameValidation()">
           <div id="textLname"></div>
           <br><br>
 
 
       <!--Pais-->
-          <label style="font-size: 26px;" for="country">Pais<label>
+          <label 
+          class="title-pais"
+          for="country">Pais
+          <label>
           <select 
-              style="font-size: 26px; margin-left: 85px;" 
+              style="font-size: 22px; margin-left: 85px;" 
               id="country" 
               name="country">
               <option style="font-size: 22px;" value="brasil">Brasil</option>
@@ -176,13 +182,14 @@
           <br><br>
       <!--Assunto-->
           <label 
-          style="font-size: 26px;" 
+          class="label-assunto"
           for="description">Assunto
           </label>
           <br>
           <textarea 
+          class="text-area"
           placeholder="Escreva sua mensagem.."
-          style="font-size: 20px; width: 600px; height: 200px;" id="subject" 
+          id="subject" 
           name="subject" 
            
           >
@@ -198,6 +205,15 @@
               <div id="#texDescription"></div>
           </form>
     </div>
+
+
+
+
+
+
+
+
+
 
     <!--Footer com links para redes sociais-->
     <ul class="nav justify-content-center bg-principal p-2">
